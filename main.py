@@ -48,3 +48,5 @@ instructor3.assign_exercise_to_student(student3, exercise4)
 for cohort in [cohort1, cohort2, cohort3]: 
     for student in cohort.students:
         print(f"{student.first_name} {student.last_name} is working on " + ", ".join([student.exercises[i].name for i in range(len(student.exercises))]) + ".")
+
+        
